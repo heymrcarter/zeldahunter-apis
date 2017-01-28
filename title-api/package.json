@@ -4,7 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prestart": "yarn run build",
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.js --exec \"node -r 'babel-register'\" && yarn run open:dev",
+    "open:dev": "babel-node scripts/open-dev",
+    "clean": "rm -rf dist",
+    "prebuild": "yarn run clean && mkdir -p dist",
+    "build": "babel src -s -D -d",
+    "test": "mocha scripts/test-setup.js  \"./{,!(node_modules)/**/}*.spec.js\" --reporter list --require babel-polyfill",
+    "test:watch": "yarn run test -- --watch",
+    "lint": "esw -w src"
   },
   "keywords": [],
   "author": "",
@@ -18,12 +27,17 @@
   },
   "devDependencies": {
     "babel-cli": "^6.22.2",
+    "babel-eslint": "^7.1.1",
+    "babel-polyfill": "^6.22.0",
     "babel-register": "^6.22.0",
     "chai": "^3.5.0",
+    "dotenv": "^4.0.0",
     "eslint": "^3.14.1",
+    "eslint-plugin-import": "^2.2.0",
     "eslint-watch": "^2.1.14",
     "mocha": "^3.2.0",
     "nodemon": "^1.11.0",
+    "open": "^0.0.5",
     "supertest": "^2.0.1"
   }
 }
