@@ -11,9 +11,9 @@
     "clean": "rm -rf dist",
     "prebuild": "yarn run clean && mkdir -p dist",
     "build": "babel src -s -D -d",
-    "test": "mocha scripts/test-setup.js  \"./{,!(node_modules)/**/}*.spec.js\" --reporter list --require babel-polyfill",
+    "test": "./node_modules/.bin/mocha scripts/test-setup.js  \"./{,!(node_modules)/**/}*.spec.js\" --reporter list --require babel-polyfill",
     "test:watch": "yarn run test -- --watch",
-    "lint": "esw src",
+    "lint": "./node_modules/.bin/esw src",
     "lint:watch": "esw -w src"
   },
   "keywords": [],
