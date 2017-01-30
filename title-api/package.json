@@ -4,15 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prestart": "./node_modules/.bin/yarn run build",
+    "prestart": "npm run build",
     "start": "node dist/index.js",
-    "dev": "nodemon src/index.js --exec \"node -r 'babel-register'\" && yarn run open:dev",
+    "dev": "nodemon src/index.js --exec \"node -r 'babel-register'\" && npm run open:dev",
     "open:dev": "babel-node scripts/open-dev",
-    "clean": "rm -rf dist",
-    "prebuild": "./node_modules/.bin/yarn run clean && mkdir -p dist",
+    "clean": "rimraf dist",
+    "prebuild": "npm run clean && mkdirp dist",
     "build": "babel src -s -D -d",
     "test": "./node_modules/.bin/mocha scripts/test-setup.js  \"./{,!(node_modules)/**/}*.spec.js\" --reporter list --require babel-polyfill",
-    "test:watch": "./node_modules/.bin/yarn run test -- --watch",
+    "test:watch": "npm run test -- --watch",
     "lint": "./node_modules/.bin/esw src",
     "lint:watch": "esw -w src"
   },
@@ -37,9 +37,11 @@
     "eslint": "^3.14.1",
     "eslint-plugin-import": "^2.2.0",
     "eslint-watch": "^2.1.14",
+    "mkdirp": "^0.5.1",
     "mocha": "^3.2.0",
     "nodemon": "^1.11.0",
     "open": "^0.0.5",
+    "rimraf": "^2.5.4",
     "supertest": "^2.0.1",
     "yarn": "^0.19.1"
   }
