@@ -10,7 +10,7 @@
     "open:dev": "babel-node scripts/open-dev",
     "clean": "rimraf dist",
     "prebuild": "npm run clean && mkdirp dist",
-    "build": "babel src -s -D -d",
+    "build": "babel src --out-dir dist --ignore spec.js",
     "test": "./node_modules/.bin/mocha scripts/test-setup.js  \"./{,!(node_modules)/**/}*.spec.js\" --reporter list --require babel-polyfill",
     "test:watch": "npm run test -- --watch",
     "lint": "./node_modules/.bin/esw src",
