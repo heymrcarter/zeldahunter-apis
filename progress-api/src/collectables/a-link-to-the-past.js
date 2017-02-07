@@ -27,6 +27,5 @@ export default {
   ],
   fairyFountains: [],
   piecesOfHeart: [],
-  warps: [],
-  startingHearts: 3
+  warps: []
 };
