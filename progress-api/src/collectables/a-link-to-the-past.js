@@ -25,7 +25,7 @@ export default {
       found: false
     }
   ],
-  fairyFountains: [
+  'fairy-fountains': [
     {
       id: 'fairy-fountain-1',
       location: `South of the Eastern Palace before you enter the area filled with ruins, there is a cave. Walk inside of it and you'll come across a Fairy Fountain at the end of it.`,
@@ -45,67 +45,67 @@ export default {
       found: false
     },
     {
-      id: 'fairy-foundation-4',
+      id: 'fairy-fountain-4',
       location: `This one is around Link's house. Dash into the rocks piled on top of eachother with the Pegasus Boots to reveal a staircase. Walk down the stairs to find a Fairy Fountain.`,
       screenshot: ['https://s3.us-east-2.amazonaws.com/zeldahunter-dev/collectables/a-link-to-the-past/fairy-fountain-4.png'],
       found: false
     },
     {
-      id: 'fairy-foundation-5',
+      id: 'fairy-fountain-5',
       location: `Right before entering the desert area, go north instead to find a cave. Walk inside of it to find another Fairy Fountain.`,
       screenshots: ['https://s3.us-east-2.amazonaws.com/zeldahunter-dev/collectables/a-link-to-the-past/fairy-fountain-5.png'],
       found: false
     },
     {
-      id: 'fairy-foundation-6',
+      id: 'fairy-fountain-6',
       location: `Go to the small island in the middle of Lake Hylia and in the cave. You'll find the Pond of Happiness, but it harbors a small additional secret. Bomb the east wall to find a Fairy Fountain.`,
       screenshots: ['https://s3.us-east-2.amazonaws.com/zeldahunter-dev/collectables/a-link-to-the-past/fairy-fountain-6.png'],
       found: false
     },
     {
-      id: 'fairy-foundation-7',
+      id: 'fairy-fountain-7',
       location: `Walk on the shore of Lake Hylia. You'll find an icy cave of sorts. If you bomb the wall to the left of the cave entrance, you'll find the Ice Rod. Walk into the normal entrance to find a Fairy Fountain.`,
       screenshots: ['https://s3.us-east-2.amazonaws.com/zeldahunter-dev/collectables/a-link-to-the-past/fairy-fountain-7.png'],
       found: false
     },
     {
-      id: 'fairy-foundation-8',
+      id: 'fairy-fountain-8',
       location: `Walk east from the graveyard, and you'll come across a lone bush surrounded by grass. Cut down the bush and go down the hole. You'll find a Fairy Fountain.`,
       screenshots: ['https://s3.us-east-2.amazonaws.com/zeldahunter-dev/collectables/a-link-to-the-past/fairy-fountain-8.png'],
       found: false
     },
     {
-      id: 'fairy-foundation-9',
+      id: 'fairy-fountain-9',
       location: `After killing Agahnim for the first time, go to the eastern border of the Lost Woods. Dash into the odd looking tree with the Pegasus Boots and go down the hole. You'll find a Fairy Fountain when you land.`,
       screenshots: ['https://s3.us-east-2.amazonaws.com/zeldahunter-dev/collectables/a-link-to-the-past/fairy-fountain-9.png'],
       found: false
     },
     {
-      id: 'fairy-foundation-10',
+      id: 'fairy-fountain-10',
       location: `It's in the exact same place as the first one in the Light World, but in the Dark World instead.`,
       screenshots: ['https://s3.us-east-2.amazonaws.com/zeldahunter-dev/collectables/a-link-to-the-past/fairy-fountain-10.png'],
       found: false
     },
     {
-      id: 'fairy-foundation-11',
+      id: 'fairy-fountain-11',
       location: `In the same place as the other Fairy Fountain by Link's house in the Light World, but in the Dark World.`,
       screenshots: ['https://s3.us-east-2.amazonaws.com/zeldahunter-dev/collectables/a-link-to-the-past/fairy-fountain-11.png'],
       found: false
     },
     {
-      id: 'fairy-foundation-12',
+      id: 'fairy-fountain-12',
       location: `Go to where the cave with the Ice Rod was in the Light World in the Dark World. Enter the bombed cave and find the Fairy Fountain.`,
       screenshots: ['https://s3.us-east-2.amazonaws.com/zeldahunter-dev/collectables/a-link-to-the-past/fairy-fountain-12.png'],
       found: false
     },
     {
-      id: 'fairy-foundation-13',
+      id: 'fairy-fountain-13',
       location: `In the Swamp of Evil, there is a cave to the right of Misery Mire. Walk inside to find a Fairy Fountain.`,
       screenshots: ['https://s3.us-east-2.amazonaws.com/zeldahunter-dev/collectables/a-link-to-the-past/fairy-fountain-13.png'],
       found: false
     },
     {
-      id: 'fairy-foundation-14',
+      id: 'fairy-fountain-14',
       location: `East of Ganon's Tower, there is a boulder. Lift it up and go down the steps. Go north and use Ether to see the invisible path. Bomb the wall and go through. Bomb the other walls and go north to find a Fairy Fountain.`,
       screenshots: [
         'https://s3.us-east-2.amazonaws.com/zeldahunter-dev/collectables/a-link-to-the-past/fairy-fountain-14.1.png',
@@ -114,13 +114,13 @@ export default {
       found: false
     },
     {
-      id: 'fairy-foundation-15',
+      id: 'fairy-fountain-15',
       location: `Also in the same maze, head left this time instead of north. Bomb the north wall north of the exit outside to find a Fairy Fountain.`,
       screenshots: ['https://s3.us-east-2.amazonaws.com/zeldahunter-dev/collectables/a-link-to-the-past/fairy-fountain-15.png'],
       found: false
     }
   ],
-  piecesOfHeart: [
+  'pieces-of-heart': [
     {
       id: 'heart-piece-1',
       location: `Head to the south east entrance of the lost woods, north of the fortune teller, and go up until you see a tree stump cave. Directly above it is a patch of 3x3 grass. Slash the middle one, fall down the hole and grab heart piece number one!`,

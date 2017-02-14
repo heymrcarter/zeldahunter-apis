@@ -1,6 +1,6 @@
 export default {
   bottles: [],
-  piecesOfHeart: [],
+  'pieces-of-heart': [],
   maimai: [],
-  masterOre: []
+  'master-ore': []
 };

@@ -1,7 +1,7 @@
 export default {
   bottles: [],
-  heartPieces: [],
+  'heart-pieces': [],
   masks: [],
-  skulltulaHouses: [],
-  strayFairies: []
+  'skulltula-houses': [],
+  'stray-fairies': []
 };

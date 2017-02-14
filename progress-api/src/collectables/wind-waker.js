@@ -1,8 +1,8 @@
 export default {
-  heartPieces: [],
-  tradingSequence: [],
-  treasureCharts: [],
-  witheredTrees: [],
+  'heart-pieces': [],
+  'trading-sequence': [],
+  'treasure-charts': [],
+  'withered-trees': [],
   bottles: [],
-  specialCharts: []
+  'special-charts': []
 };

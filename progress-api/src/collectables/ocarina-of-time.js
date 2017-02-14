@@ -1,11 +1,11 @@
 export default {
-  bigPoes: [],
-  goldSkulltulas: [],
-  piecesOfHeart: [],
-  tradingSequence: [],
-  beanBeds: [],
+  'big-poes': [],
+  'gold-skulltulas': [],
+  'pieces-of-heart': [],
+  'trading-sequence': [],
+  'bean-beds': [],
   bottles: [],
   masks: [],
-  ocarinaSongs: [],
-  fairyFoundations: []
+  'ocarina-songs': [],
+  'fairy-fountains': []
 };

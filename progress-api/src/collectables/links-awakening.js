@@ -1,5 +1,5 @@
 export default {
-  secretSeashells: [],
-  piecesOfHeart: [],
-  tradingSequence: []
+  'secret-seashells': [],
+  'pieces-of-heart': [],
+  'trading-sequence': []
 };

@@ -1,9 +1,9 @@
 export default {
-  courageGems: [],
-  powerGems: [],
-  wisdomGems: [],
-  heartContainers: [],
-  tradingSequence: [],
-  treasureMaps: [],
-  goldenFrogs: []
+  'courage-gems': [],
+  'power-gems': [],
+  'wisdom-gems': [],
+  'heart-containers': [],
+  'trading-sequence': [],
+  'treasure-maps': [],
+  'golden-frogs': []
 };

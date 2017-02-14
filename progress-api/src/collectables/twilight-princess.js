@@ -1,8 +1,8 @@
 export default {
-  goldenBugs: [],
-  maloMartGuide: [],
-  piecesOfHeart: [],
-  poeSouls: [],
+  'golden-bugs': [],
+  'malo-mart-guide': [],
+  'pieces-of-heart': [],
+  'poe-souls': [],
   bottles: [],
-  howlingStones: []
+  'howling-stones': []
 };

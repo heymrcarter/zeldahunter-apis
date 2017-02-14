@@ -1,5 +1,5 @@
 export default {
-  heartContainers: [],
-  magicalRings: [],
-  tradingSequence: []
+  'heart-containers': [],
+  'magical-rings': [],
+  'trading-sequence': []
 };

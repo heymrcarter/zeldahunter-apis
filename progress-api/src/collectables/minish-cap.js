@@ -1,8 +1,8 @@
 export default {
   bottles: [],
-  fairyFoundations: [],
-  heartContainers: [],
-  swordsmanNewsletters: [],
-  tigerScrolls: [],
-  windCrests: []
+  'fairy-fountains': [],
+  'heart-containers': [],
+  'swordsman-newsletters': [],
+  'tiger-scrolls': [],
+  'wind-crests': []
 };

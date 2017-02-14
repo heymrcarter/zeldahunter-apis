@@ -1,8 +1,8 @@
 export default {
-  forceGems: [],
-  heartContainers: [],
-  rabbitLocations: [],
-  stampStations: [],
-  trainParts: [],
+  'force-gems': [],
+  'heart-containers': [],
+  'rabbit-locations': [],
+  'stamp-stations': [],
+  'train-parts': [],
   treasures: []
 };

@@ -1,8 +1,8 @@
 export default {
   bottls: [],
   bugs: [],
-  goddessCubes: [],
-  gratitudeCrystals: [],
-  piecesOfHeart: [],
+  'goddess-cubes': [],
+  'gratitude-crystals': [],
+  'pieces-of-heart': [],
   treasure: []
 };
